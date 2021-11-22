@@ -1,0 +1,315 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body header
+{  
+background-color: #14597f;
+max-width: 1200px;
+height: 60px;
+padding: 0 20px;
+border-bottom: solid #0b2d3d 1px;
+margin-left: auto;
+margin-right: auto;
+}
+body header a img
+{
+height: 60px;
+}
+body main
+{
+    padding: 0 20px;
+}
+body header a
+{
+    float: left;
+}
+body header nav ul li 
+{
+    display: inline;
+    list-style: none;
+    float: right;
+    margin: 20px;   
+}
+body header nav ul li:first-child
+{
+    margin: 5px;
+}
+body header nav ul li a
+{
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+}
+body header nav ul li a:hover
+{
+    text-decoration: none;
+    color: #1fb5e9;
+    opacity: 1;
+}
+.shopping-cart
+{
+    background-color: #14597f;
+    color: #14597f;
+}
+.count
+{
+  background-color:#d9534f ;
+  color: white;
+  float: right;
+  height: 16px;
+  width: 16px;
+  text-align: center;
+  margin-top: 25px; 
+  border-radius: 8px; 
+}
+/*<----- Main ----->*/
+body main
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+body main article p
+{
+    display: inline;
+}
+#home-img
+{
+    float: right;
+    width: 50%;
+}
+.btn
+{
+    background-color: #14597f; 
+    border: solid 1px #0b2d3d; 
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background-color: #1fb5e9;
+    transition-delay: 200ms;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -70px;
+  }
+  body main section section div
+  {
+    border: 1px solid #999999;
+      border-radius: 4px;
+      width: 25%;
+  }
+  body main section section div button
+  {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    margin: 0;
+    border: 1px solid #999999;
+  }
+  body main section section div button:hover
+  {
+    background: #f3f3f3;
+  }
+  body main article p
+  {
+      text-align: right;
+      
+      
+  }
+  body main article div
+  { 
+      float: right;
+      width: 45%;
+      clear: both;
+  }
+  body main article div a
+  {
+    border: #999999 solid 1px;
+    border-radius: 4px;
+    display: inline-block;
+    scale: 75%;
+  }
+  body main article div a:hover
+  {
+      background: #f3f3f3;
+  }
+  body main article div a p
+  {
+      float: right;
+      margin-right: 10px;
+      font-size: 25px;
+  }
+  body main article div a p small
+  {
+      font-size: 18px;
+  }
+  #mtx
+  {
+      float: left;
+      width: 50%;
+  }
+  #article 
+  {
+      display: block;
+      float: right;
+      width: 50%;
+      
+  }
+  #mpa
+  {
+      display: inline-block;
+  }
+  #prx
+  {
+      
+      float: left;
+      width: 100%;
+      border-top: dashed black 1px;   
+  }
+  #prx form
+  { 
+      display: inline;
+      text-align: right;
+      float: right;
+      margin-top: 25px ;
+  }
+  #prx form input
+  {
+      width: 40px;
+      padding: 7px;
+      border: solid 1px black;
+      border-radius: 4px;
+      -moz-appearance: textfield;
+  }
+  #prx form button
+  {
+    background-color: #14597f; 
+    border: solid 1px #0b2d3d; 
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+  }
+  #prx p
+  {
+      float: left;
+  }
+#maincontact h1
+{
+text-align: left;
+}
+#maincontact p
+{
+    text-align: left;
+}
+#contactzone
+{
+    float: left;
+    width: 100%;
+    display: block;
+    border: #999999 solid 1px;
+    margin: 50px;
+    border-radius: 4px;
+}
+#contactzone section
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact i
+{
+    margin: 50px 0;
+    scale: 600%;
+}
+/*.columns
+{
+    width: 100%;
+}
+.columns thead 
+{
+    display: block;
+    width: 100%;
+}
+.columns tbody
+{
+    display: block;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+}*/
+table button
+{
+    border: none;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: black solid 1px;
+  }
+  table thead
+  {
+      text-align: left;
+      border-bottom: solid black 1px;
+  }
+  thead th{
+    border-bottom: solid black 1px;
+  }
+  table tbody a
+  {
+    text-decoration: none;
+    color: blue;
+  }
+  table td
+  {
+      padding: 10px 0;
+  }
+  #cmda p
+  {
+      float: right;
+      text-align: right;
+  }
+  #cmdbtn
+  {
+      float: right;
+      clear: both;
+  }
+  #btdvd 
+  {
+      margin-top: 60px;
+  }
+  /*<----- Footer ----->*/
+  .footer,
+  .push {
+    height: 70px;
+    border-top: solid #cccccc 1px;
+    text-align: center;
+    background-color: #eeeeee;
+  }
+  .push
+  {
+      background-color: white;
+      border: none;
+      clear: both;
+  }
